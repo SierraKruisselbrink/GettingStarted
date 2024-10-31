@@ -8,6 +8,18 @@ body {
     margin: 0;
 }
 
+body.full-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.full-page section {
+    flex: 1;
+}
 img {
     max-width: 100%;
     margin: 0;
@@ -77,6 +89,13 @@ footer {
     background-color: #FFB7B2;
 }
 
+.lightyellow-bkg {
+    background-color: #FFD3B6;
+}
+
+.yellow-bkg {
+    background: #FCE2B8;
+}
 h1 {
     font-family: "IBM Plex Mono", monospace;
     font-size: 32px;
